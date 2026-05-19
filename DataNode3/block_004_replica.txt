@@ -1,0 +1,20 @@
+# ╔══════════════════════════════════════════════╗
+# ║        REPLICA BLOCK — HDFS Simulation       ║
+# ╚══════════════════════════════════════════════╝
+# replica_of   : block_004
+# replica_node : DataNode3
+# replicated_at: 2026-05-19T12:23:50.643445
+# source_path  : DataNode2/block_004.txt
+# replication_factor: 2
+#──────────────────────────────────────────────────
+ID,Category,Product,Price,Quantity,Sales,Rating,Region,Month
+41,Food,Salt,6,2100,12600,4.9,North,September
+42,Food,Milk,9,1900,17100,4.8,South,September
+43,Electronics,Speaker,130,360,46800,4.6,East,September
+44,Electronics,Charger,22,1050,23100,4.4,West,September
+45,Clothing,Gloves,17,650,11050,4.3,North,September
+46,Clothing,Socks,12,950,11400,4.1,South,October
+47,Food,Butter,14,1150,16100,4.8,East,October
+48,Electronics,Laptop,900,140,126000,4.7,West,October
+49,Electronics,Smartphone,700,220,154000,4.8,North,October
+50,Clothing,Shirt,30,550,16500,4.4,South,October

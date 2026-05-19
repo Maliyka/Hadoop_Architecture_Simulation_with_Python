@@ -1,0 +1,46 @@
+{
+    "hdfs_version": "3.3.x (Simulated)",
+    "created_at": "2026-05-19T12:23:50.641284",
+    "dataset": "dataset.csv",
+    "total_records": 50,
+    "block_size": 10,
+    "total_blocks": 5,
+    "replication": 2,
+    "blocks": {
+        "block_000": {
+            "primary": "DataNode1/block_000.txt",
+            "datanode": "DataNode1",
+            "rows": 10,
+            "replica": "DataNode2/block_000_replica.txt",
+            "replica_node": "DataNode2"
+        },
+        "block_001": {
+            "primary": "DataNode2/block_001.txt",
+            "datanode": "DataNode2",
+            "rows": 10,
+            "replica": "DataNode3/block_001_replica.txt",
+            "replica_node": "DataNode3"
+        },
+        "block_002": {
+            "primary": "DataNode3/block_002.txt",
+            "datanode": "DataNode3",
+            "rows": 10,
+            "replica": "DataNode1/block_002_replica.txt",
+            "replica_node": "DataNode1"
+        },
+        "block_003": {
+            "primary": "DataNode1/block_003.txt",
+            "datanode": "DataNode1",
+            "rows": 10,
+            "replica": "DataNode2/block_003_replica.txt",
+            "replica_node": "DataNode2"
+        },
+        "block_004": {
+            "primary": "DataNode2/block_004.txt",
+            "datanode": "DataNode2",
+            "rows": 10,
+            "replica": "DataNode3/block_004_replica.txt",
+            "replica_node": "DataNode3"
+        }
+    }
+}

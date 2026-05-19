@@ -1,0 +1,17 @@
+# HDFS Block Metadata
+# block_id   : block_000
+# datanode   : DataNode1
+# rows       : 10
+# created_at : 2026-05-19T12:23:50.641425
+#──────────────────────────────────────────────────
+ID,Category,Product,Price,Quantity,Sales,Rating,Region,Month
+1,Electronics,Laptop,850,120,102000,4.5,North,January
+2,Electronics,Smartphone,650,200,130000,4.7,South,January
+3,Clothing,Shirt,25,500,12500,4.2,East,January
+4,Clothing,Jeans,55,300,16500,4.0,West,January
+5,Food,Rice,15,1000,15000,4.8,North,January
+6,Electronics,Tablet,400,150,60000,4.3,South,February
+7,Electronics,Headphones,80,400,32000,4.6,East,February
+8,Clothing,Jacket,90,180,16200,4.4,West,February
+9,Food,Wheat,12,1200,14400,4.7,North,February
+10,Food,Sugar,10,1500,15000,4.9,South,February
